@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ETSeriesEnroll_swipe_enroll.iml" filepath="$PROJECT_DIR$/ETSeriesEnroll_swipe_enroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eTSeriesEnroll/eTSeriesEnroll.iml" filepath="$PROJECT_DIR$/eTSeriesEnroll/eTSeriesEnroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fPSettingLib/fPSettingLib.iml" filepath="$PROJECT_DIR$/fPSettingLib/fPSettingLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fpCsaClientLib/fpCsaClientLib.iml" filepath="$PROJECT_DIR$/fpCsaClientLib/fpCsaClientLib.iml" />
+    </modules>
+  </component>
+</project>

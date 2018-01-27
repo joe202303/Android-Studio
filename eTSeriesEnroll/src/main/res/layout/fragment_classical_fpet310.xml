@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".FPET310Activity$PlaceholderFragment" >
+
+    <include
+        android:id="@+id/action_bar_container"
+        layout="@layout/fp_titlebar" />
+
+    <include
+        android:id="@+id/text_container"
+        android:layout_below="@+id/action_bar_container"
+        layout="@layout/fp_enroll_description" />
+
+    <!--
+        android:layout_height="250dp"
+       	android:layout_width="250dp"
+    -->
+
+    <RelativeLayout
+        android:id="@+id/frame_container"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/text_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/enroll_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/enroll_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--
+    <TextView 
+        android:id="@+id/enroll_progress"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/enroll_status"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+    -->
+
+
+<!--     android:layout_height="80dp"
+ -->
+
+    <LinearLayout
+        android:id="@+id/progress_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/enroll_status"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <!--
+  		android:layout_height="30dp"
+  		android:paddingLeft="13dp"
+  		android:paddingLeft="20dp"
+        -->
+
+        <ImageView
+            android:id="@+id/progress1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside" />
+<!--        android:paddingLeft="5dp"
+ -->
+
+        <ImageView
+            android:id="@+id/progress2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/progress3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/progress4"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/progress5"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/progress6"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress7"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress8"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress9"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress10"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress11"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress12"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress12"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress13"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress14"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress15"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress16"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress17"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/progress18"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tv_enroll_OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_container"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="@string/enroll_OK_click"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

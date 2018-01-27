@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ETSeriesEnroll</string>
+    <string name="action_settings">Enroll Mode</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="enroll_hint">손가락을 홈 버튼 위에 올리세요</string>
+    <string name="enroll_hint2">손가락을 같은 위치에 올려주세요</string>
+    <string name="title_activity_finger">Finger Demo</string>
+    <string name="dialog_delete_msg">Do you want to delete this finger?</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="toast_delete_finger_failed">delete finger failed!</string>
+    <string name="dialog_rename_title">set finger name</string>
+    <string name="enroll_OK_title">Complete</string>
+    <string name="enroll_OK">The fingerprint is registered successfully, \nit can be used to unlock your device</string>
+    <string name="enroll_OK_click">Continue</string>
+    <string name="register">REGISTER</string>
+    <string name="finger_hint">본인 인증을 위해 손가락을 홈 버튼 위에 올리세요</string>
+    <string name="dialog_match_ok">match OK!!!</string>
+    <string name="context_menu_del">Delete</string>
+    <string name="context_menu_rename">Rename</string>
+    <string name="context_menu_learning">Learning</string>
+    <string name="add_finger">Add a fingerprint…</string>
+    <string name="title_activity_enroll_view5">EnrollView5</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="guideline_skip">skip</string>
+    <string name="place_your_finger">Place your finger on the sensor</string>
+    <string name="hold_your_finger">HOLD YOUR FINGER</string>
+    <string name="remove_your_finger">REMOVE YOUR FINGER</string>
+    <string name="remove_your_finger_plz">PLEASE REMOVE YOUR FINGER</string>
+    <string name="not_match">Not matched</string>
+    <string name="verify">Verify</string>
+    <string name="verifying">Verifying</string>
+    <string name="abort">Abort</string>
+    <string name="title_activity_fpet310">FPET310Activity</string>
+    <string name="title_activity_learning">LearningActivity</string>
+    <string name="enroll_success">Enroll Success</string>
+    <string name="enrol_failed">Enroll Failed</string>
+    <string name="learning_adjust">adjust</string>
+    <string name="learning_success">+Learning</string>
+    <string name="dialog_enroll_abort">Enroll aborting…</string>
+    <string name="bad_image">Bad Image</string>
+    <string name="partial_image">Partial Image</string>
+    <string name="water_image">Water Image</string>
+    <string name="fast_image">Too Fast</string>
+    <string name="enroll_alert_msg">같은 위치를 누르십시오</string>
+    <string name="enroll_alert_msg2">손가락을 살짝 이동하여 올려주세요</string>
+    <string name="dialog_alert_msg">The verify test finished</string>
+</resources>

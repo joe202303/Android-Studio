@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/title_paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#555555"
+        android:text="@string/title_paired_devices"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:visibility="visible" />
+
+    
+     <ListView
+        android:id="@+id/paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:paddingTop="25dp"
+        android:stackFromBottom="true"
+        android:textSize="15sp"
+        android:visibility="visible" >
+
+    </ListView>
+
+     <ProgressBar
+         android:id="@+id/progressBar1"
+         style="?android:attr/progressBarStyle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:maxHeight="30dp"
+         android:maxWidth="30dp"
+         android:minHeight="30dp"
+         android:minWidth="30dp" />
+
+</RelativeLayout>

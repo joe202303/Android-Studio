@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings">
+        <menu>
+            <group
+                android:id="@+id/exclusive_checkable_group"
+                android:checkableBehavior="single" >
+
+                <!-- Notice how these items inherit from the group. -->
+                <!--
+                <item android:id="@+id/exclusive_checkable_item_1"
+                        android:title="Classical"
+                        android:checked="true" />                          
+                <item android:id="@+id/exclusive_checkable_item_2"
+                        android:title="Tutorial" />
+
+                -->
+                <item
+                    android:id="@+id/exclusive_checkable_item_3"
+                    android:title="Touch_Enroll"/>
+                <item
+                    android:id="@+id/exclusive_checkable_item_4"
+                    android:title="Swipe_Enroll"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

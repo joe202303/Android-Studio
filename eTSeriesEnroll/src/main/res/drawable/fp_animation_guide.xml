@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <!--
+     <item android:drawable="@drawable/fp_00_200_test" android:duration="200" />
+     <item android:drawable="@drawable/fp_01_500_test" android:duration="500" />
+    -->
+
+    <item
+        android:drawable="@drawable/fp_00_200"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/fp_01_500"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/fp_00_200"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/fp_03_500"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/fp_04_200"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/fp_05_500"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/fp_04_200"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/fp_07_500"
+        android:duration="500"/>
+    <item
+        android:drawable="@drawable/fp_00_200"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/fp_09_500"
+        android:duration="500"/>
+
+</animation-list>

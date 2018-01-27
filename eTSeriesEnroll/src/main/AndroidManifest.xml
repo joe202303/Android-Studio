@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.testet300enroll"
+    android:versionCode="1"
+    android:versionName="1.0.1.1">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="25" />
+
+    <supports-screens android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fp_icon_32"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.testet300enroll.FPFingerActivity"
+            android:label="@string/title_activity_finger"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.testet300enroll.FPET300Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FPFingerActivity" />
+        </activity>
+        <activity
+            android:name="com.example.testet300enroll.FPET310Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FPFingerActivity" /> 	            
+        </activity>
+        <activity
+            android:name="com.example.testet300enroll.FPET310ActivityForSwipeEnroll"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FPFingerActivity" />
+        </activity>
+        <activity
+            android:name="com.example.testet300enroll.FPET310LearningActivity"
+            android:label="@string/title_activity_learning"
+            android:parentActivityName="com.example.testet300enroll.FPFingerActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.testet300enroll.FPFingerActivity" />
+        </activity>
+    </application>
+
+</manifest>

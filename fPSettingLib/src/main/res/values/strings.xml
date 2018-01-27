@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_fpexample_cancel">Cancel</string>
+    <string name="lock_fpexample_save">Next</string>
+    <string name="register_fpexample_finger1">Finger1</string>
+    <string name="register_fpexample_finger2">Finger2</string>
+    <string name="register_fpexample_finger3">Finger3</string>
+    <string name="register_fpexample_finger4">Finger4</string>
+    <string name="register_fpexample_finger5">Finger5</string>
+    <string name="register_fpexample_done">Done</string>
+    
+    <string name="lock_fpexample_title">Fingerprint Registration</string>
+    <!-- ChooseLockPatternExample, screen hint text at bottom of screen. These are instructions and rules for drawing a good patttern -->
+    <string name="lock_fpexample_message">Swipe your finger over the sensor repeatedly until success.</string>
+    <string name="lock_fpexample_message2">Create backup password for option.</string>
+
+	<string name="choose_fpexample_cancel">Cancel</string>
+    <string name="choose_fpexample_title">Fingerprint Authentication</string>
+	<string name="choose_fpexample_message">Swipe any of your registered \nfingers to auth for now.
+    </string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="none_paired">No devices have been paired</string>
+    
+	<string name="select_device">select a device to connect</string>
+     <string name="lock_message">Swipe your finger over the sensor repeatedly until registration is successful. You can register up to 5 fingers.</string>
+     <string name="FP_RES_ENROLL_OK">Enroll OK</string>
+     <string name="FP_RES_GETTED_IMAGE_TOO_SHORT">Getted image too short</string>
+     <string name="FP_RES_GETTED_IMAGE_FAIL">Getted image fail</string>
+     <string name="FP_RES_IMAGE_TOO_HEAVY">Image too heavy</string>
+     <string name="FP_RES_IMAGE_TOO_LIGHT">Image too light</string>
+    
+     <string name="FP_RES_ENROLL_FAIL">Enroll Failed</string>
+     <string name="FP_RES_MATCHED_FAIL">Matched Fail</string>
+     <string name="FP_RES_MATCHED_OK">Matched OK</string>
+     <string name="FP_RES_ENROLL_DUPLICATED">Enroll Duplicated</string>
+     <string name="FP_RES_ABORT_OK">Abort OK</string>
+     <string name="FP_RES_ABORT_FAIL">Abort Failed!</string>
+     <string name="FP_RES_SENSOR_TIMEOUT">SENSOR Timeout</string>
+     <string name="FP_RES_NOT_CONNECTED">Not Connected</string>
+     <string name="FP_RES_IMAGE_INFO">Image Info</string>
+     <string name="FP_RES_DELETE_OK">Delete OK</string>
+     <string name="FP_RES_DELETE_FAIL">Delete Failed</string>
+     <string name="FP_RES_COMMAND_ERROR">Command Error</string>
+     <string name="FP_RES_CAPTURE_VERIFY_OK">Capture Verify OK</string>
+     <string name="FP_RES_CHECKSUM_FAIL">Checksum Fail</string>
+      <string name="FP_RES_GETTED_BAD_IMAGE">Bad Image</string>
+     <string name="capture_verify_feature_fail">Capture Verify Feature fail!</string>
+     <string name="identify_fail">Identify fail!</string>
+     <string name="Unknown_result_message">Unknown result message</string>
+     <string name="wait_for_yuserver">Please wait for sending data to YuServer</string>
+     <string name="send_to_yuserver_fail">Send to YuServer Fail</string>
+     <string name="Please_wait_for_initial_process">Please wait for initial process....</string>
+     <string name="Please_wait_for_abort_process">Please wait for abort process....</string>
+     <string name="are_you_sure_you_want_to_delete">Are you sure you want to delete?</string>
+     <string name="service_is_not_installed">Service is not installed!</string>
+     <string name="error_title">Error</string>
+     <string name="connect_again">Would you try to connect again?</string>
+    <string name="BT_warning">BlueTooth Disconnected warning</string>
+    <string name="scan_BT">Would you like to scan Bluetooth again?</string>
+    <string name="address_cache">You have already one device address cached below</string>
+    <string name="abort_finger_op_fail">Abort Finger Operation Fail!</string>
+    <string name="enroll_error">Get Enroll List Fail!, Error Code=></string>
+    <string name="done">Done</string>
+    <string name="reselect_device">Please select Device</string>
+     <string name="reconnect">Please reopen and reconnect Device again</string>
+     <string name="nonfind">Not find BT device!!</string>
+     <string name="search">Searching...for YuKey</string>
+     <string name="assure">Please make sure you have opened Device</string>
+     <string name="wait">Please wait...</string>
+     <string name="error_code">Error Code=</string>
+     <string name="abort">Abort</string>
+     <string name="lib_name">Setting Lib</string>
+     
+
+</resources>

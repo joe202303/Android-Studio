@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_fpexample_cancel">取消</string>
+    <string name="lock_fpexample_save">下一步</string>
+    <string name="register_fpexample_finger1">手指1</string>
+    <string name="register_fpexample_finger2">手指2</string>
+    <string name="register_fpexample_finger3">手指3</string>
+    <string name="register_fpexample_finger4">手指4</string>
+    <string name="register_fpexample_finger5">手指5</string>
+    <string name="register_fpexample_done">完成</string>
+    
+    <string name="lock_fpexample_title">指纹注册</string>
+    <!-- ChooseLockPatternExample, screen hint text at bottom of screen. These are instructions and rules for drawing a good patttern -->
+    <string name="lock_fpexample_message">请刮刷已注册的手指</string>
+    <string name="lock_fpexample_message2">此选项创建备用密码</string>
+
+	<string name="choose_fpexample_cancel">取消</string>
+    <string name="choose_fpexample_title">指纹认证</string>
+	<string name="choose_fpexample_message">请刮刷已注册的手指 </string>
+    <string name="title_paired_devices">已配对蓝芽设备</string>
+    <string name="none_paired">无已配对蓝芽设备</string>
+    <string name="select_device">选择要连接的蓝芽设备</string>
+     <string name="lock_message">請刮刷欲註冊的手指3-4次.</string>
+     <string name="FP_RES_ENROLL_OK">注册成功</string>
+     <string name="FP_RES_GETTED_IMAGE_TOO_SHORT">指纹图太短</string>
+     <string name="FP_RES_IMAGE_TOO_HEAVY">指纹图太黑</string>
+     <string name="FP_RES_IMAGE_TOO_LIGHT">指纹图太白</string>
+     <string name="FP_RES_ENROLL_FAIL">注册失败</string>
+     <string name="FP_RES_MATCHED_OK">比对成功</string>
+     <string name="FP_RES_MATCHED_FAIL">比对失败</string>
+     <string name="FP_RES_GETTED_IMAGE_FAIL">指纹图取得失败</string>
+     <string name="FP_RES_ENROLL_DUPLICATED">注册手指重复</string>
+     <string name="FP_RES_ABORT_OK">操作取消成功</string>
+     <string name="FP_RES_ABORT_FAIL">操作取消失败!</string>
+     <string name="FP_RES_SENSOR_TIMEOUT">SENSOR逾时</string>
+     <string name="FP_RES_NOT_CONNECTED">未连接</string>
+     <string name="FP_RES_IMAGE_INFO">影像资讯</string>
+     <string name="FP_RES_DELETE_OK">删除成功</string>
+     <string name="FP_RES_DELETE_FAIL">删除失败</string>
+     <string name="FP_RES_COMMAND_ERROR">命令错误</string>
+     <string name="FP_RES_CAPTURE_VERIFY_OK">验证成功</string>
+     <string name="FP_RES_CHECKSUM_FAIL">检查码失败</string>
+     <string name="FP_RES_GETTED_BAD_IMAGE">图形不佳</string>
+     <string name="capture_verify_feature_fail">特征验证失败!</string>
+     <string name="identify_fail">验证失败!</string>
+     <string name="Unknown_result_message">未知讯息</string> 
+     <string name="wait_for_yuserver">传送资料到后台, 请稍等</string>
+     <string name="send_to_yuserver_fail">无法与后台连接</string>
+     <string name="Please_wait_for_initial_process">启动中, 请稍等....</string>
+     <string name="Please_wait_for_abort_process">取消中, 请稍等....</string>
+     <string name="are_you_sure_you_want_to_delete">确定要删除吗?</string>
+     <string name="service_is_not_installed">还未安装YuKey服务</string>
+     <string name="error_title">错误</string>
+     <string name="connect_again">您确定要再度连接装置吗</string>
+    <string name="BT_warning">蓝芽断线警示</string>
+    <string name="scan_BT">请重新做蓝芽扫描</string>
+    <string name="address_cache">您已经有一个装置位址快取如下</string>
+     <string name="abort_finger_op_fail">取消操作失败!</string>
+     <string name="enroll_error">无法取得注册清单,错误代码 =></string>
+     <string name="done">完成</string>
+     <string name="reselect_device">请先选择Yu-Key装置</string>
+     <string name="reconnect">请重新开启并连接Yu-Key装置</string>
+     <string name="nonfind">找不到YuKey装置</string>
+     <string name="search">找寻YuKey装置中...</string>
+     <string name="assure">请确认已开启YuKey装置</string>
+     <string name="wait">请稍后片刻...</string>
+     <string name="error_code">错误代码=</string>
+     <string name="abort">放弃</string>
+     <string name="lib_name">YuKey Lib</string>
+     
+</resources>

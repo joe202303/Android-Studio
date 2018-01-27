@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".FPET300Activity" >
+
+    <include
+        android:id="@+id/action_bar_container"
+        layout="@layout/fp_titlebar" />
+
+    <include
+        android:id="@+id/text_container"
+        android:layout_below="@+id/action_bar_container"
+        layout="@layout/fp_enroll_description" />
+
+    <ImageView
+        android:id="@+id/image_guide"
+        android:layout_width="270dp"
+        android:layout_height="380dp"
+        android:layout_below="@+id/text_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+"
+
+    <RelativeLayout
+        android:id="@+id/progress_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text_container"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/fingerprint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/tv_enroll_OK_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fingerprint"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:onClick="onEnrollOKClick"
+            android:text="@string/enroll_OK_click"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="BUTTON_TEXT">
+		<item name="android:textSize">20sp</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:singleLine">true</item>	
+	</style>
+	
+	<style name="TITLE_TEXT">
+		<item name="android:textSize">30sp</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="TITLE_TEXT2">
+		<item name="android:textSize">30sp</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	
+	<style name="EXPLAIN_TEXT">
+		<item name="android:textSize">20sp</item>
+		<item name="android:ellipsize">marquee</item>
+	</style>
+
+</resources>

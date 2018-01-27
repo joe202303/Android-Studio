@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--     android:layout_height="180dp"
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_container"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_below="@+id/action_bar_container"
+    android:layout_centerHorizontal="true"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+<!--      android:textSize="26sp"    
+ -->
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/hint_title"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/place_your_finger"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/hint_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enroll_hint"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+    
+    <TextView
+        android:id="@+id/hint_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enroll_alert_msg"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+        
+<!-- 
+    <TextView
+        android:id="@+id/hint_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enroll_hint"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/hint_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enroll_hint2"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+ -->
+</LinearLayout>
